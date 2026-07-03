@@ -1,0 +1,92 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form{
+   max-width: 300px;
+   margin: 50px 50px;
+}
+
+fieldset{
+   min-height: 400px;
+   min-width: 320px;
+   border-radius: 10px;
+    position: relative;
+}
+
+legend{
+   font-size: 18px;
+   font-weight: bold;
+    position: absolute;
+  top: -4px;
+  left: 10px;
+  margin-bottom: 10px;;
+  padding: 16px 6px;
+}
+
+label{
+   display: block;
+   padding-top: 14px;
+   font-weight: 500;
+}
+
+ .label-1{
+   padding-top: 50px;
+
+ }
+
+.input{
+   padding: 5px;
+   min-width: 80%;
+   box-sizing: border-box;
+   border-style: solid;
+   border-radius: 6px;
+   display: block;
+   margin: 6px 0px 0px 0px;
+   
+}
+
+
+textarea{
+   min-width: 80%;
+   resize: vertical;
+   max-height: 160px;
+   min-height: 40px;
+    border-radius: 6px;
+}
+
+.label-2{
+   font-size: 14px;
+}
+
+button{
+   display: block;
+   margin-top: 10px;
+   cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
