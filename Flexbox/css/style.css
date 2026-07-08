@@ -1,0 +1,47 @@
+html {
+    font-family: 'ubuntu', sans-serif;
+}
+
+
+body {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1620px;
+    min-height: 120px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    font-size: 24px;
+}
+
+
+div,ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    list-style: none;
+    gap: 50px;
+    text-decoration: underline;
+
+}
+
+
+.div-1 {
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-image: url(../images/google-logo.png );
+
+}
+
+hr {
+    max-width: 1750px;
+}
