@@ -1,0 +1,270 @@
+html {
+    font-family: 'ubuntu', sans-serif;
+}
+
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    min-height: 105px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.div-1 {
+    width: 84px;
+    height: 45px;
+    padding-bottom: 20px;
+}
+
+
+.div-2 {
+    width: 250px;
+    height: 45px;
+}
+
+
+.img-1 {
+    background-image: url(../images/S.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 47px;
+    height: 15px;
+    transform: translateY(-62px);
+    margin-left: 34px;
+}
+
+
+.p-1 {
+    font-family: 'ubuntu';
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #2c332f;
+    margin-bottom: -26px;
+
+}
+
+
+.p-2 {
+    font-family: 'ubuntu';
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+
+.p-3 {
+    font-family: 'ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #858e8a;
+    margin-bottom: 8px;
+}
+
+
+.a-1 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c332f;
+    padding-left: 98px;
+}
+
+
+hr {
+    max-width: 1230px;
+}
+
+
+.container-2 {
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.p-4 {
+    font-family: 'ubuntu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+    margin-bottom: 20px;
+}
+
+
+.h1 {
+    max-width: 800px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+    font-family: oswald;
+    margin-top: 94px;
+    margin-bottom: 40px;
+}
+
+
+.img-2 {
+    max-width: 1240px;
+    min-height: 512px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+.decor {
+    margin-left: -440px;
+    transform: translateY(-500px);
+    width: 528px;
+    height: 48px;
+    position: relative;
+    z-index: -1;
+
+}
+
+
+.decor-2 {
+    margin-left: 1200px;
+    transform: translateY(-260px);
+    width: 528px;
+    height: 48px;
+    position: relative;
+    z-index: -1;
+}
+
+.play {
+    background-color: #3596ed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-700%);
+
+}
+
+
+
+.h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+    font-family: oswald;
+    margin-bottom: 40px;
+}
+
+
+
+ul {
+    width: 179px;
+    height: 153px;
+    margin-left: -20px;
+    margin-bottom: 80px;
+}
+
+
+
+::marker {
+    font-size: 20px;
+    color: #3596ed;
+}
+
+
+
+li {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+}
+
+
+.p-5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+    margin-bottom: 100px;
+    margin-top: -20px;
+}
+
+
+.container-3 {
+    background: linear-gradient(90deg, rgba(73, 169, 255, 0.2) 0%, rgba(252, 124, 217, 0.2) 100%);
+    ;
+    max-width: 100%;
+    min-height: 320px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+
+
+.img-3 {
+    background-image: url(../images/S.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 47px;
+    height: 15px;
+    transform: translateY(-62px);
+    margin-left: 34px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 60px;
+}
+
+
+.div-3 {
+    margin-left: 49%;
+    margin-bottom: 40px;
+    transform: translateY(35px);
+}
+
+
+.hr2 {
+    margin-bottom: 40px;
+    min-width: 100%;
+}
+
+
+
+.p-6 {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #858e8a;
+    display: flex;
+    justify-content: center;
+    transform: translateY(px);
+    margin-bottom: 40px;
+}
