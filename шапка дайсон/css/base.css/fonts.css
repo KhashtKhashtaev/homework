@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'NAMU Pro';
+  src: url('../fonts/namu_pro.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('../fonts/namu_pro.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('../fonts/namu_pro.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/namu_pro.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/namu_pro.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/namu_pro.svg#namu_pro') format('svg');
+  /* Chrome < 4, Legacy iOS */
+}
+
+
+@font-face {
+  font-family: 'NAMU pro';
+  src: local(NAMU pro-light), local(NAMU-pro-light),
+    url('/fonts/namu_pro.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open sans';
+  src: local(Open sans-light), local(Open-sans-light),
+    url('/fonts/OpenSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open sans';
+  src: local(Open sans-regular), local(Open-sans-regular),
+    url('/fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Open sans';
+  src: local(Open sans-Medium), local(Open-sans-Medium),
+    url('/fonts/OpenSans-Medium.woff') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open sans';
+  src: local(Open sans-SemiBold), local(Open-sans-SemiBold),
+    url('/fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Open sans';
+  src: local(Open sans-Bold), local(Open-sans-Bold),
+    url('/fonts/OpenSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
