@@ -1,0 +1,113 @@
+.pluses {
+    background: var(--main-color);
+    display: none;
+}
+
+
+.pluses__container {
+    padding-bottom: clamp(46px, 0.089rem + 7.74vw, 150px);
+    display: grid;
+    justify-content: center;
+}
+
+
+.pluses__wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(3, clamp(304px, 9.914rem + 14.66vw, 440px));
+}
+
+
+@media(width > 576px) {
+    .pluses__wrapper {
+        gap: 20px;
+    }
+}
+
+
+@media(width <=992px) {
+    .pluses__wrapper {
+        grid-template-columns: repeat(2, clamp(265px, 13.188rem + 9.38vw, 304px));
+        gap: clamp(10px, 0.058rem + 1.92vw, 20px);
+    }
+}
+
+
+@media(width <=576px) {
+    .pluses__wrapper {
+        grid-template-columns: repeat(1, 350px);
+        row-gap: 10px;
+    }
+}
+
+
+.pluses__title {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: clamp(20px, 0.661rem + 1.64vw, 42px);
+    color: var(--bg-color);
+    padding-top: clamp(46px, 0.089rem + 7.74vw, 150px);
+    padding-bottom: clamp(30px, 1.071rem + 2.23vw, 60px);
+}
+
+
+.pluses__article {
+    box-shadow: 0 4px 41px 0 rgba(0, 0, 0, 0.05);
+    background: var(--main-color);
+    height: clamp(190px, 5.862rem + 9.7vw, 280px);
+}
+
+
+@media(width <=992px) {
+    .pluses__article {
+        height: clamp(170px, 8.894rem + 4.81vw, 190px);
+    }
+}
+
+
+@media(width <=576px) {
+    .pluses__article {
+        height: 116px;
+        display: flex;
+        align-items: center;
+        gap: 43px;
+    }
+}
+
+
+.pluses__icon {
+    padding-top: 10px;
+    width: clamp(74px, 2.22rem + 3.88vw, 110px);
+    height: clamp(74px, 2.22rem + 3.88vw, 110px);
+    
+}
+
+
+@media(width <=576px) {
+    .pluses__icon {
+        margin-left: 33px;
+    }
+}
+
+
+.pluses__text {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: clamp(13px, 0.625rem + 0.52vw, 20px);
+    text-align: center;
+    color: #000;
+    padding-top: clamp(11px, 0.42rem + 0.43vw, 15px);
+}
+
+
+.pluses__text-tu {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: clamp(12px, 0.589rem + 0.45vw, 18px);
+    line-height: 130%;
+    text-align: center;
+    color: #000;
+    padding-top: clamp(8px, 0.166rem + 0.54vw, 13px);
+}
