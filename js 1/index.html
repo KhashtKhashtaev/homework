@@ -1,14 +1,68 @@
 <!doctype html>
-<html class="page" lang="en">
+<html class="page" lang="ru">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css">
     <script src="./js/index.js" type="module"></script>
-    <title>Dyson</title>
+    <title>SHOP.CO</title>
 </head>
+
 <body class="page__body">
-    
+    <div class="registration__link-wrapper">
+        <div class="container registration__container">
+            <p class="registration__text"><span class="registration__text-span">Зарегестрируйтесь и получите скидку 20% на первую покупку.</span><a
+                    class="registration__link" href="#">Зарегестрироваться сейчас</a></p>
+            <button class="header__cross-button">
+                <svg class="header__cross-icon" width="20" height="20">
+                    <use class="cross__icon" href="./icons/header-cross-icon-.svg" aria-label="крестик"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__nav-content">
+            <p class="header__logo">SHOP.CO</p>
+            <nav>
+                <ul class="header__menu">
+                    <li><a id="#" class="header__list menu__list-icon" href="#">Магазин</a></li>
+                    <li><a class="header__list" href="#">Скидки</a></li>
+                    <li><a class="header__list" href="#">Новые поступления</a></li>
+                    <li><a class="header__list" href="#">Бренды</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="header__icons-content">
+            <form class="header__form" action="#">
+                <label for="search"></label>
+                <input class="header__search" id="search" type="text" maxlength="30" name="search"
+                placeholder="Искать товары...">
+                <button class="header__search-button">
+                    <svg class="header__search-icon" width="24" height="24">
+                        <use href="./icons/search-icon.svg"></use>
+                    </svg>
+                </button>
+                <button class="header__search-button-2">
+                    <svg class="header__search-icon" width="24" height="24">
+                        <use href="./icons/search.svg"></use>
+                    </svg>
+                </button>
+            </form>
+            <button class="header__basket-icon">
+                <svg width="24" height="24">
+                    <use href="./icons/basket-icon.svg"></use>
+                </svg>
+            </button>
+            <button class="header__entrance-icon">
+                <svg width="24" height="24">
+                    <use href="./icons/entrance-icon.svg"></use>
+                </svg>
+            </button>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
